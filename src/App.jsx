@@ -16,16 +16,22 @@ import {
 const App = () => {
   return (
     <div className="bg-white container mx-auto">
-      <Profile />
-      <TwitterName />
-      <SlackName />
-      <ZuriTeam />
-      <ZuriBooks />
-      <PythonBooks />
-      <BackgroundChecks />
-      <DesignBooks />
-      <SocialIcon />
-      <Footer />
+      <header>
+        <Profile />
+        <TwitterName />
+        <SlackName />
+      </header>
+      <main>
+        <ZuriTeam />
+        <ZuriBooks />
+        <PythonBooks />
+        <BackgroundChecks />
+        <DesignBooks />
+      </main>
+      <footer>
+        <SocialIcon />
+        <Footer />
+      </footer>
     </div>
   );
 };
