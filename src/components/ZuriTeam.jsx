@@ -1,7 +1,17 @@
 import React from "react";
 
 const ZuriTeam = () => {
-  return <div>ZuriTeam</div>;
+  return (
+    <div className="sectionContainer bgStyle">
+      <a
+        href="https://training.zuri.team/"
+        id="btn__zuri"
+        className="textStyle"
+      >
+        Zuri Team{" "}
+      </a>
+    </div>
+  );
 };
 
 export default ZuriTeam;
