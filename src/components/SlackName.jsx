@@ -1,7 +1,11 @@
 import React from "react";
 
 const SlackName = () => {
-  return <div className="hidden">SlackName</div>;
+  return (
+    <div id="slack" className=" hidden sectionContainer bgStyle">
+      MarsIfeanyi
+    </div>
+  );
 };
 
 export default SlackName;
