@@ -1,6 +1,6 @@
 import React from "react";
 
-import { marsIfeanyi, shareButton } from "../assets";
+import { marsIfeanyi, shareButton, shareButton2 } from "../assets";
 
 const Profile = () => {
   return (
@@ -18,7 +18,13 @@ const Profile = () => {
         <img
           src={shareButton}
           alt="shareButton-Icon"
-          className="absolute top-5 right-10 md:right-52 md:w-16 "
+          className="absolute hidden md:flex top-5 right-44 w-16 "
+        />
+
+        <img
+          src={shareButton2}
+          alt="shareButton-Icon2"
+          className="absolute md:hidden top-5 right-5 w-12 "
         />
       </div>
 

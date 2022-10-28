@@ -5,6 +5,7 @@ import slackIcon from "./slackIcon.png";
 import ZuriIntLogo from "./ZuriIntLogo.png";
 import shareButton from "./shareButton.png";
 import marsIfeanyi from "./marsIfeanyi.png";
+import shareButton2 from "./shareButton2.png";
 
 export {
   mars,
@@ -14,4 +15,5 @@ export {
   slackIcon,
   ZuriIntLogo,
   shareButton,
+  shareButton2,
 };
