@@ -5,4 +5,4 @@ Linktree website that allows a person show their personal profile and link to va
 Built using ReactJS and Tailwind CSS
 
 Live at:
-https://linktree-web-7z3ti1m8g-marsifeanyi.vercel.app/
+https://linktree-web-app.vercel.app/
