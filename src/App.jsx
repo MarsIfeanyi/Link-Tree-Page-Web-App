@@ -15,7 +15,7 @@ import {
 
 const App = () => {
   return (
-    <div className="bg-white container mx-auto">
+    <div className="bg-white container md:max-w-6xl items-center mx-auto w-[90%]">
       <header>
         <Profile />
         <TwitterName />
