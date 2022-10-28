@@ -1,6 +1,6 @@
 import React from "react";
 
-import { mars, shareButton } from "../assets";
+import { marsIfeanyi, shareButton } from "../assets";
 
 const Profile = () => {
   return (
@@ -10,7 +10,7 @@ const Profile = () => {
     >
       <div className="flex flex-row">
         <img
-          src={mars}
+          src={marsIfeanyi}
           alt="profile-Image"
           className="w-36 ring-2 rounded-full ring-Gray900"
         />
