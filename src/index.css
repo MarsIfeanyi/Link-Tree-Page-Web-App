@@ -18,7 +18,7 @@
 
 @layer components {
   .sectionContainer {
-    @apply container items-center justify-center mx-5 md:mx-auto my-8 flex flex-col bg-white  max-w-xl md:max-w-6xl;
+    @apply container items-center justify-center mx-auto my-8 flex flex-col bg-white;
   }
 
   .bgStyle {
