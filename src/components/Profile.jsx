@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div
       id="profile__img"
-      className="sectionContainer mt-10  bg-white space-y-4 py-4 relative"
+      className="container items-center justify-center mx-auto my-8 flex flex-col bg-white mt-10  space-y-4 py-4 relative"
     >
       <div className="flex flex-row">
         <img
